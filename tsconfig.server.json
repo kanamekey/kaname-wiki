@@ -1,0 +1,9 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "jsx": "react",
+    "allowJs": true,
+    "checkJs": true
+  },
+  "include": ["common", "lib", "local_modules"]
+}
